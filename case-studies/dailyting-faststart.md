@@ -2,7 +2,7 @@
 
 - 역할: 2인 제품팀의 Backend Owner
 - 공개 서비스: https://dailyting.cloud
-- 공개 기술 페이지: https://dailyting.cloud/engineering/faststart.html
+- 공개 기술 노트: https://blog.yeon.world/engineering/dailyting-video-faststart
 - 저장소: 비공개 팀 저장소. 이 문서는 공개 가능한 측정 조건과 기술 판단만 제공합니다.
 
 ## 문제와 판단
@@ -36,4 +36,3 @@ ffmpeg -y -i a.mp4 -c copy -movflags +faststart b.mp4
 - 이 수치는 atom 배치에 따른 결정적 구조 측정입니다. 실제 단말의 첫 프레임 시간, 네트워크 RTT, 플레이어별 버퍼 정책은 별도로 측정하지 않았습니다.
 - 그러므로 “사용자 첫 프레임 시간이 정확히 99% 빨라졌다”는 뜻이 아닙니다. “재생기가 인덱스를 얻기 위해 기다려야 하는 파일 선행 다운로드 조건이 약 99% 줄었다”는 뜻입니다.
 - 운영 파일과 사용자 데이터, 내부 경로 및 배포 구성은 공개하지 않습니다.
-
